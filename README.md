@@ -48,7 +48,7 @@ $ cd doc
 e depois escreva o comando abaixo, alterando o nome do(s) autor(es), e o nome da aplicação:
 
 ```
-$ sphinx-apidoc -F -f -A "nome do autor" -V 0 -R 0.1 -H "nome da aplicação" -e -P -a --ext-autodoc --ext-viewcode --ext-todo -o . ./../src/
+$ sphinx-apidoc -F -f -A "Luis Conceicao, Andre Carepa, David Marques, Guilherme Tubal" -V 0 -R 0.1 -H "Oficina Automoveis" -e -P -a --ext-autodoc --ext-viewcode --ext-todo -o . ./../src/
 ```
 
 Posteriormente deve configurar o ficheiro `doc\config.py` com as alterações que entenda necessárias
