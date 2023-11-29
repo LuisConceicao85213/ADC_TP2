@@ -1,4 +1,9 @@
 import pickle
+""""
+Importa o Ficheiro Pickle
+
+e importa também variaveis
+"""
 
 from clientes import nome_ficheiro_lista_de_clientes
 from faturas import nome_ficheiro_lista_de_faturas

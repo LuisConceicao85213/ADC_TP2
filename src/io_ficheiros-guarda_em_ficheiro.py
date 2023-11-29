@@ -2,7 +2,9 @@ def guarda_em_ficheiro(nome_do_ficheiro, dados):
     """Guarda os dados recebidos num ficheiro
 
     :param nome_do_ficheiro: nome do ficheiro onde vai guardar os dados
+    :param type: list
     :param dados: dados a serem guardados
+    :param type: list
     """
 
     with open(nome_do_ficheiro, "wb") as f:
