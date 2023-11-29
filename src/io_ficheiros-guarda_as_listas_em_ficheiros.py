@@ -1,9 +1,12 @@
 def guarda_as_listas_em_ficheiros(lista_de_veiculos, lista_de_clientes, lista_de_faturas):
-    """TODO: documentação
+    """Guarda as listas no ficheiro
 
-    :param lista_de_clientes:
-    :param lista_de_veiculos:
-    :param lista_de_faturas:
+    :param lista_de_clientes: lista com todos os clientes
+    :param type: list
+    :param lista_de_veiculos: lista com todos os veiculos
+    :param type: list
+    :param lista_de_faturas: lista com todos as faturas
+    :param type: list
     """
 
     op = input("Os dados nos ficheiros serão sobrepostos. Continuar (s/N)?")

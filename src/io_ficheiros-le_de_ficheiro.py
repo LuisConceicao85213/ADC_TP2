@@ -1,7 +1,8 @@
 def le_de_ficheiro(nome_ficheiro):
     """Lê os dados de um ficheiro
 
-    :param nome_ficheiro: nome do ficheiro onde estao os dados aaaa
+    :param nome_ficheiro: nome do ficheiro onde estao os dados
+    :para type: list
     :return: o que leu do ficheiro (depende dos dados guardados)
     """
 
