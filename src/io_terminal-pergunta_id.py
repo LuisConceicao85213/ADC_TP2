@@ -8,7 +8,6 @@ def pergunta_id(questao, lista, mostra_lista=False):
     :ParaType:Bool
     :return: id filtrado
     """
-
     if mostra_lista:
         imprime_lista(cabecalho="", lista=lista)
 
