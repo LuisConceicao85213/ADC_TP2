@@ -1,10 +1,12 @@
 def pergunta_id(questao, lista, mostra_lista=False):
-    """TODO: documentação
-
-    :param questao:
-    :param lista:
-    :param mostra_lista:
-    :return:
+    """
+    :param questao: Pergunta
+    :ParaType:Str
+    :param lista: É uma lista com um cabeçalho
+    :ParaType:Int
+    :param mostra_lista: Serve para imprimir lista na interface
+    :ParaType:Bool
+    :return: id filtrado
     """
 
     if mostra_lista:
@@ -16,3 +18,4 @@ def pergunta_id(questao, lista, mostra_lista=False):
             return id
         else:
             print(f"id inexistente. Tente de novo. Valores admitidos {0} - {len(lista)}")
+

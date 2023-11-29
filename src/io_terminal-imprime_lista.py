@@ -14,6 +14,12 @@ def imprime_lista(cabecalho, lista):
 
     :param cabecalho: Cabecalho para a listagem
     :param lista: Lista a ser impressa
+    :paratype:list
+
+    :param cabecalho: Serve para imprimir um cabecalho na lista
+    :paratype:lista
+
+    return: imprime uma tabela
     """
 
     print(cabecalho)
