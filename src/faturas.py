@@ -14,6 +14,7 @@ def cria_nova_fatura(lista_de_clientes, lista_de_veiculos):
 
     :return: dicionario com uma fatura, na forma
         {"cliente": <<id_cliente>>, "veiculo": <<id_veiculo>>, "data": <<data>>, ...}
+    :rtype: dict
     """
 
     id_cliente = pergunta_id(questao="Qual o id do cliente?", lista=lista_de_clientes, mostra_lista=True)
